@@ -23,36 +23,30 @@ header('Content-Type: text/html; charset=utf-8');
 class Installer
 {
     public static $packageInfo = [
-        '3.1.9' => [
+        '3.1.12' => [
             'tree' => 'Evolution',
-            'name' => 'Evolution CMS 3.1.9',
-            'link' => 'https://github.com/evocms-community/evolution/archive/3.1.9.zip',
+            'name' => 'Evolution CMS 3.1.12',
+            'link' => 'https://github.com/evocms-community/evolution/archive/refs/tags/3.1.12.zip',
             'location' => 'install/index.php'
         ],
         '3.x' => [
             'tree' => 'Evolution',
-            'name' => 'Evolution CMS 3(3.x develop version)',
-            'link' => 'https://github.com/evocms-community/evolution/archive/3.x.zip',
+            'name' => 'Evolution CMS 3 (3.x develop version)',
+            'link' => 'https://github.com/evocms-community/evolution/archive/refs/heads/3.x.zip',
             'location' => 'install/index.php'
         ],
-        '1.4.16' => [
+        '1.4.20' => [
             'tree' => 'Evolution',
-            'name' => 'Evolution CMS 1.4.16',
-            'link' => 'https://github.com/evocms-community/evolution/archive/1.4.16.zip',
-            'location' => 'install/index.php'
+            'name' => 'Evolution CMS 1.4.20',
+            'link' => 'https://github.com/evocms-community/evolution/archive/refs/tags/1.4.20.zip',
+            'location' =>'install/index.php'
         ],
         '1.4.x' => [
             'tree' => 'Evolution',
             'name' => 'Evolution CMS (1.4.x develop version)',
-            'link' => 'https://github.com/evocms-community/evolution/archive/1.4.x.zip',
+            'link' => 'https://github.com/evocms-community/evolution/archive/refs/heads/1.4.x.zip',
             'location' => 'install/index.php'
-        ],
-        '2.0.x' => [
-            'tree' => 'Evolution',
-            'name' => 'Evolution CMS (2.0.x develop version, depricated and not supported)',
-            'link' => 'https://github.com/evocms-community/evolution/archive/2.0.x.zip',
-            'location' => 'install/index.php'
-        ],
+        ]
     ];
 
     public static function items($default = null)
